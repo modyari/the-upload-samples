@@ -91,6 +91,8 @@ namespace TheUpload.Game.Hacking
             }
         }
 
+// for debug
+#if UNITY_EDITOR
         private void Update()
         {
             if (Keyboard.current.aKey.wasPressedThisFrame)
@@ -98,7 +100,7 @@ namespace TheUpload.Game.Hacking
                 LevelsFinishedHandler();
             }
         }
-
+#endif
         private void LevelsFinishedHandler()
         {
             var result = new GameSystemResult(){GameSystemType = GameSystemType.Story, RoomName = _currentRoom.NextRoomName, ShowOverlay = true};
