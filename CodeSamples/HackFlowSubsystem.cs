@@ -1,7 +1,7 @@
 /*
  The subsystem responsible for handling the hacking flow when there's no pausing or dialogue
  A hack room consists of several levels, when a level ends successfully, the next level is loaded, which may or may not play a piece of dialogue
- When all levels are done, the GameSystem (HackGameSystem) is informed and finishes. The game then loads the next appropriate GameSystem. 
+ When all levels are done, the GameSystem (HackingGameSystem) is informed and finishes. The game then loads the next appropriate GameSystem. 
 */
 using System;
 using System.Collections;
