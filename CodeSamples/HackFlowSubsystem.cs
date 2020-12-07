@@ -41,12 +41,14 @@ namespace TheUpload.Game.Hacking.Subsystems
             {
                 _currentLevel.Tick();
             }
-
+	    //debug purposes
+#if UNITY_EDITOR
             if (Keyboard.current.aKey.wasPressedThisFrame)
             {
                 _levelIndex = 4;
                 SpawnLevel();
             }
+#endif
         }
 
         private void SpawnLevel(bool isReset = false)
