@@ -124,6 +124,7 @@ namespace TheUpload.Game.Hacking
                     RunDialogueNode(_currentRoom.NodeToPlayOnFinish);
                     yield return new WaitForSeconds(2);
                 }
+                //TODO: refactor this to appropriate feature
                 Arguments.Services.Sound.StopMusic();
                 Arguments.Services.Camera.CameraGlitchController.SetProperties(true, 3, 4);
                 Arguments.Services.Camera.SetGlitchActive(true);
