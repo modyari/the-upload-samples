@@ -1,3 +1,9 @@
+/*
+HackingGameSystem is launched with the proper arguments by GameController. 
+It loads the correct room from addressables, which contains all the hack levels for the room. 
+It then passes the room to HackFlowSubsystem to control the flow and logic of these levels.
+It uses DialogueSubystem to display dialogue when a level in the room requests it.
+*/
 using System;
 using System.Collections;
 using TheUpload.Core;
