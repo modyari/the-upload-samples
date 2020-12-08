@@ -26,7 +26,7 @@ A HackRoom contains several levels, when a level ends successfully, the next lev
 When all levels are done, the GameSystem (HackingGameSystem) is informed and finishes. The game then loads the next appropriate GameSystem. 
 
 ## [GameController](https://github.com/modyari/the-upload-samples/blob/main/CodeSamples/GameController.cs)
-A game controller exists in the launch scene and loads the appropriate GameSystem scenes additively / initializes them with arguments.
+A game controller exists in the launch scene and loads the appropriate GameSystem scenes additively / initializes the GameSystem with required arguments.
 The arguments are gathered from the launch scene (all services and data) which allows for testing by changing them in the editor. 
 It was planned to undergo further refactoring to create different types of debug controllers and achieve cleaner code.
  
