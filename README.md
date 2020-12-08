@@ -28,7 +28,7 @@ When all levels are done, the GameSystem (HackingGameSystem) is informed and fin
 ## [GameController](https://github.com/modyari/the-upload-samples/blob/main/CodeSamples/GameController.cs)
 A game controller exists in the launch scene and loads the appropriate GameSystem scenes additively / initializes them with arguments.
 The arguments are gathered from the launch scene (all services and data) which allows for testing by changing them in the editor. 
-It was planned to undergo further refactoring to create different types of debug controllers.
+It was planned to undergo further refactoring to create different types of debug controllers and achieve cleaner code.
  
 ## [UIFadable](https://github.com/modyari/the-upload-samples/blob/main/CodeSamples/UIFadable.cs)
 A parent class for any fadable UI that you can show/hide with animation
