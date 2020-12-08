@@ -3,7 +3,7 @@ Code samples from The Upload
 Includes a few extracts of the code for demonstration
 
 # Where To Start?
-Please read the code philosophy document: [Click Here](https://docs.google.com/document/d/1fct1Ug9rISiyJreD6xXWBfIUV2DGquHOvk1N3vM2MH8/edit?usp=sharing)
+Please read the code philosophy document if you want to understand the philosophy of the code better: [Click Here](https://docs.google.com/document/d/1fct1Ug9rISiyJreD6xXWBfIUV2DGquHOvk1N3vM2MH8/edit?usp=sharing)
 
 ## Note
 The code in the CodeSamples is not in its natural directory location as placed in the original project for convenience.
